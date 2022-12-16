@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		 <title>Labb3</title>
+		 <link rel="stylesheet" href="style.css">
+		 <meta charset="utf-8">
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<div id="chibi"><img src="chibi.png" alt="chibi character"></div>
+		<div id="header">
+			<div id="buttons">
+				<button onclick="change_color()" class="jsbtn">Color</button>
+				<button onclick="font()" class="jsbtn">Font</button>
+				<button onclick="size()" class="jsbtn">Size</button>
+			</div>
+			<canvas id="clock"></canvas>
+		</div>
+		<div class="navbar">
+			<a href="index.php">Home</a>
+			<a href="DaVinci.php">Da Vinci</a>
+			<a href="blog.php">Blog</a>
+			<div class="dropdown">
+				<button class="dropbtn">Tre nyttiga länkar
+				</button>
+				<div class="dropdown_content">
+					<a href="blog.php?limit=10000">Visa alla</a>
+					<a href="blog.php?limit=10">Sortera efter äldst först</a>
+					<a href="blog.php?order=DESC&limit=10">Max 10 Nyast Först</a>
+				</div>
+			</div>
+			<a id="form" href="form.php">Formulär</a>
+			<form action="blog.php" method="GET">
+			<input type="text" name="keyword"/>
+			<input type="submit" value="Search"/>
+			</form>
+					
+		</div>

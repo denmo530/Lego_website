@@ -1,0 +1,39 @@
+body {
+  background-color: #6a6a6a;
+}
+.content {
+  float: left;
+  width: 20vw;
+  height: 20vw;
+  margin: 2vw;
+  border-radius: 2vw;
+  border: solid 2px #fff;
+  box-shadow: 0 6px 12px 3px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  -moz-transition: background-color 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out;
+  -khtml-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+#textBox {
+  clear: left;
+  margin: 2vw 26vw;
+  line-height: 5vw;
+}
+p {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 8vw;
+  font-weight: 300;
+  color: #ff7d00;
+  text-align: center;
+}
+#left {
+  background-color: #a6a6a6;
+}
+#mid {
+  background-color: #ff7d00;
+}
+#right {
+  background-color: #a6a6a6;
+}

@@ -1,0 +1,8 @@
+<div id="footer">
+				<h5>Written by Dennis Moradkhani and Jonathan Sandström</h5>
+			</div>
+		</div>
+			  <script src="script.js"></script>
+			  <script src="button.js"></script>
+	</body>
+</html>
