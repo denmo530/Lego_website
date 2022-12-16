@@ -1,0 +1,782 @@
+﻿* {
+    font-family: 'Times New Roman';
+}
+
+html, body {
+    margin: 0 auto;
+    background-color: #E3E3E3;
+    box-sizing: border-box;
+}
+
+#header {
+    margin: 0 auto;
+}
+
+YT {
+    width: 560px;
+    height: 315px;
+}
+
+#engLogga {
+    width: 3%;
+    height: 2%;
+    float: right;
+    margin: 0;
+    margin: 1% 0 0 0;
+    cursor: pointer;
+}
+
+#svLogga {
+    width: 3%;
+    height: 2%;
+    float: right;
+    margin: 0;
+    margin: 1% 0 0 0;
+    cursor: pointer;
+}
+
+.legoContent {
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    background-color: #F2F2F2;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    color: #4b4b4b;
+    padding: 2%;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+}
+
+.container {
+    height: 100%;
+    top: 0;
+}
+
+.noResultPart {
+    text-align: center;
+    font-size: 1.5vw;
+    color: red;
+}
+
+#imgLogga {
+    display: block;
+    width: 10vw;
+    padding-left: 5vw;
+    float: left;
+    margin-left: 20%;
+}
+
+#rubrik {
+    font-size: 4.5vw;
+    font-family: "Courier New";
+}
+
+#navbar {
+    margin: 0 auto;
+    background-color: #4B4B4B;
+    border-radius: 16px;
+    height: 7%;
+    width: 40%;
+}
+
+nav a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 3.6% 4% 0% 9%;
+    float: left;
+    font-size: 0.8vw;
+}
+
+#homeBtn:hover {
+    color: white;
+    border-bottom: 0.2vw solid white;
+    transition: all 0.3s ease-in-out;
+}
+
+#slumpBtn:hover {
+    color: skyblue;
+    border-bottom: 0.2vw solid skyblue;
+    transition: all 0.3s ease-in-out;
+}
+
+#nyBtn:hover {
+    color: yellow;
+    border-bottom: 0.2vw solid yellow;
+    transition: all 0.3s ease-in-out;
+}
+
+#legoBtn:hover {
+    color: red;
+    border-bottom: 0.2vw solid red;
+    transition: all 0.3s ease-in-out;
+}
+
+#searchBar {
+    display: block;
+    padding: 0.5% 0.5% 0.5% 1.5%;
+    border-radius: 1vw;
+    color: white;
+    background-color: #4B4B4B;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    height: 4vh;
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 9%;
+}
+
+.searchArea {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    height: 2.7vh;
+    margin: 1% 0% 1% 0%;
+    width: 23vw;
+    background-color: #4B4B4B;
+    color: white;
+    font-size: 1.5vw;
+}
+
+::placeholder {
+    color: white;
+    font-size: 1vw;
+}
+
+.searchButton {
+    background: #4B4B4B;
+    color: white;
+    cursor: pointer;
+    font-size: 1.4vw;
+    border: none;
+    float: right;
+    transition: all 0.1s ease-in-out;
+    margin-top: 1%;
+    outline: none;
+}
+
+.infoButton {
+    margin-top: 1%;
+    background: #4B4B4B;
+    color: white;
+    cursor: pointer;
+    font-size: 1.4vw;
+    float: right;
+    border: none;
+    transition: all 0.1s ease-in-out;
+    outline: none;
+}
+
+.searchArea::-webkit-input-placeholder {
+    color: white;
+}
+
+.searchArea:focus::-webkit-input-placeholder {
+    color: dimgray;
+}
+
+.searchButton:hover {
+    transition: color 0.3s ease-in-out;
+    color: #A62D2D;
+}
+
+.infoButton:hover {
+    transition: color 0.3s ease-in-out;
+    color: #A62D2D
+}
+
+    .infoButton:hover ~ #infoBox {
+        display: block;
+    }
+
+.searchArea:focus ~ .searchBar {
+    box-shadow: 0 0 50px black;
+}
+
+#infoBox {
+    display: none;
+    width: 35%;
+    padding: 0.2%;
+    height: auto;
+    background-color: white;
+    border: 2px solid #4b4b4b;
+    margin: 0 auto;
+    margin-top: 0.5%;
+    text-align: center;
+    color: #4b4b4b;
+    font-size: 1vw;
+}
+
+.kontakt {
+    list-style: none;
+}
+
+#mail {
+    font-size: 5vh;
+    margin-right: 0.8%;
+    float: left;
+    display: block;
+}
+
+#phone {
+    font-size: 5vh;
+    float: left;
+    margin-right: 0.8%;
+}
+
+.kontakt li {
+    margin: 1% 1% 2% 1%;
+}
+
+#number {
+    margin-left: 2.8%;
+    font-size: 2vh;
+}
+
+#adress {
+    margin-left: 2.8%;
+    font-size: 2vh;
+}
+
+.content {
+    border: 2px solid black;
+    text-align: center;
+    background-color: #4B4B4B;
+    height: 100vh;
+    width: 40vw;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.currentPart {
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.sets {
+    color: #4B4B4B;
+    width: 15vw;
+}
+
+    .sets img {
+        max-width: 250px;
+        width: 70%;
+        border-radius: 16px;
+        max-height: 250px;
+        height: auto;
+    }
+
+.partClick:hover {
+    transition: box-shadow 0.3s;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.8), 0px 2px 6px 0 rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+
+.setWrapper {
+    width: 80%;
+    text-align: center;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+    .setWrapper div {
+        margin-left: 1.5%;
+        margin-bottom: 1%;
+        background-color: #F2F2F2;
+        width: 16vw;
+        height: 44%;
+        display: inline-table;
+        clear: both;
+        padding: 0.8%;
+        transition: box-shadow 0.3s;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+        text-align: center;
+    }
+
+        .setWrapper div:hover {
+            transition: box-shadow 0.3s;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+            cursor: pointer;
+        }
+
+.p-set {
+    font-size: 1vw;
+}
+
+.h4-set {
+    font-size: 1vw;
+}
+
+.table-container {
+    width: 100%;
+    text-align: center;
+}
+
+#h4Rubrik {
+    text-align: center;
+    font-size: 1.2vw;
+}
+
+#h3Rubrik {
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 2.5vw;
+}
+
+th {
+    background-color: #4b4b4b;
+    color: white;
+    height: 5vh;
+    font-size: 1vw;
+}
+
+tr:nth-child(odd) {
+    background-color: #F0F0F0;
+}
+
+#table-set {
+    margin: 0 auto;
+    width: auto;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.subSearch {
+    font-size: 1vw;
+    font-family: Arial;
+}
+
+.noResults {
+    font-size: 1vw;
+    font-family: Arial;
+}
+
+#backtotop {
+    display: none;
+    position: fixed;
+    bottom: 15vh;
+    right: 2vw;
+    z-index: 99;
+    font-size: 1vw;
+    border: none;
+    outline: none;
+    background-color: #A62D2D;
+    color: white;
+    cursor: pointer;
+    padding: 1vw;
+    border-radius: 0.5vw;
+    border: 2px solid #A62D2D;
+}
+
+    #backtotop:hover {
+        background-color: #4B4B4B;
+    }
+
+.setIMG {
+    width: 100%;
+    height: auto;
+}
+
+.dropbtn {
+    background-color: #3E8E41;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    width: 4%;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    position: absolute;
+}
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: darkgreen;
+}
+
+.randSet {
+    margin: 0 auto;
+    background-color: #F2F2F2;
+    color: #4b4b4b;
+    width: 16vw;
+    height: 44%;
+    padding-top: 1%;
+    transition: box-shadow 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+}
+
+    .randSet img {
+        max-width: 250px;
+        width: 70%;
+        border-radius: 16px;
+        max-height: 250px;
+        height: auto;
+    }
+
+.setWrapperRand {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin: 5% 0 0 0;
+}
+
+.randSet:hover {
+    transition: box-shadow 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+
+.randBtn {
+    background-color: #3E8E41;
+    color: white;
+    height: 5%;
+    font-size: 1vw;
+    border: none;
+    width: 7%;
+}
+
+.randBtn-div {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+.randBtn:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
+.legoText {
+    font-size: 1.2vw;
+}
+
+.legoTextInfo {
+    font-size: 1.2vw;
+    font-weight: initial;
+}
+
+.legoContent h3 {
+    font-size: 2vw;
+}
+
+iframe {
+    width: 100%;
+    height: 56.25%;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+    .setWrapper div {
+        width: 40%;
+        height: 30%;
+    }
+
+    #navbar {
+        width: 90%;
+    }
+
+    nav a {
+        font-size: 2vw;
+    }
+
+    #rubrik {
+        font-size: 6vw;
+    }
+
+    #searchBar {
+        width: 60%;
+        height: 5%;
+    }
+
+    .searcharea {
+        width: 80%;
+        height: 50%;
+        font-size: 4vw;
+    }
+
+    ::placeholder {
+        font-size: 3vw;
+    }
+
+    .searchButton {
+        font-size: 4vw;
+    }
+
+    .infoButton {
+        font-size: 4vw;
+    }
+
+    #infoBox {
+        width: 80%;
+        height: 10%;
+        font-size: 3vw;
+    }
+
+    #backtotop {
+        width: 9%;
+        height: 7%;
+        font-size: 2vw;
+    }
+
+    .h4-set {
+        font-size: 2vw;
+    }
+
+    .p-set {
+        font-size: 2vw;
+    }
+
+    .randSet {
+        width: 40%;
+        height: 50%;
+    }
+
+        .randSet p {
+            font-size: 3vw;
+        }
+
+        .randSet h4 {
+            font-size: 4vw;
+        }
+
+    .randBtn {
+        width: 20%;
+        height: 7%;
+        font-size: 3vw;
+    }
+
+    th {
+        font-size: 3vw;
+    }
+
+    #h4Rubrik {
+        font-size: 3vw;
+    }
+
+    #h3Rubrik {
+        font-size: 4vw;
+    }
+
+    .legoContent {
+        width: 80%;
+    }
+
+        .legoContent h3 {
+            font-size: 4vw;
+        }
+
+    .legotext {
+        font-size: 4vw;
+    }
+
+    iframe {
+        height: 30%;
+    }
+
+    .subSearch {
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .setWrapper div {
+        width: 100%;
+        height: 50%;
+        margin-bottom: 6%;
+    }
+
+    #navbar {
+        height: auto;
+        width: 46%;
+    }
+
+    nav a {
+        font-size: 5vw;
+        float: none;
+        display: block;
+    }
+
+    #rubrik {
+        font-size: 7vw;
+    }
+
+    #imgLogga {
+        width: 15%;
+        margin-left: 8%;
+    }
+
+    #searchBar {
+        width: 90%;
+        height: 10%;
+    }
+
+    .searcharea {
+        width: 70%;
+        height: 60%;
+        font-size: 6vw;
+        margin-bottom: 0;
+    }
+
+    ::placeholder {
+        font-size: 4vw;
+    }
+
+    .searchButton {
+        font-size: 6vw;
+        display: inline-table;
+        margin-top: 0;
+        border-radius: 4vw;
+    }
+
+    .noResults {
+        font-size: 3vw;
+    }
+
+    .noResultPart {
+        font-size: 3vw;
+    }
+
+    .infoButton {
+        font-size: 6vw;
+        display: inline-table;
+        border-radius: 4vw;
+        margin-top: 0;
+    }
+
+    #infoBox {
+        width: 80%;
+        height: 10%;
+        font-size: 3vw;
+    }
+
+    #svLogga {
+        margin-left: 1%;
+        width: 6%;
+        height: 8%;
+        cursor: pointer;
+    }
+
+    #engLogga {
+        width: 6%;
+        height: 8%;
+        cursor: pointer;
+    }
+
+        #engLogga:hover {
+            cursor: pointer;
+        }
+
+    #backtotop {
+        width: 9%;
+        height: 7%;
+        font-size: 2vw;
+    }
+
+    .h4-set {
+        font-size: 5vw;
+    }
+
+    .p-set {
+        font-size: 4vw;
+    }
+
+    .randSet {
+        width: 40%;
+        height: 50%;
+    }
+
+        .randSet p {
+            font-size: 3vw;
+        }
+
+        .randSet h4 {
+            font-size: 4vw;
+        }
+
+    .randbtn {
+        width: 30%;
+        height: 10%;
+        font-size: 3vw;
+        margin: 2%;
+    }
+
+    th {
+        font-size: 3vw;
+    }
+
+    #h4Rubrik {
+        font-size: 3vw;
+    }
+
+    #h3Rubrik {
+        font-size: 4vw;
+    }
+
+    .legoContent {
+        width: 80%;
+    }
+
+        .legoContent h3 {
+            font-size: 4vw;
+        }
+
+    .legotext {
+        font-size: 4vw;
+    }
+
+    iframe {
+        height: 30%;
+    }
+
+    .subSearch {
+        font-size: 4vw;
+        font-style: italic;
+    }
+
+    .dropdown {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .dropbtn {
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 2%;
+    }
+
+    .dropdown-content {
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 2%;
+    }
+}
